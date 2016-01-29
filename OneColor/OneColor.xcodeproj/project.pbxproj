@@ -17,6 +17,13 @@
 		F9324FAA1C521B4B0079AD76 /* AddImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F9324FA91C521B4B0079AD76 /* AddImage.png */; };
 		F9324FAC1C521DAD0079AD76 /* LighTing_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F9324FAB1C521DAD0079AD76 /* LighTing_logo.png */; };
 		F9324FAE1C521DC90079AD76 /* logo_img.png in Resources */ = {isa = PBXBuildFile; fileRef = F9324FAD1C521DC90079AD76 /* logo_img.png */; };
+		F9E2E4601C5BEE490065BE67 /* page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E2E45E1C5BEE490065BE67 /* page2ViewController.m */; };
+		F9E2E4611C5BEE490065BE67 /* page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E45F1C5BEE490065BE67 /* page2ViewController.xib */; };
+		F9E2E4631C5C04570065BE67 /* restore.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4621C5C04570065BE67 /* restore.png */; };
+		F9E2E4651C5C046D0065BE67 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4641C5C046D0065BE67 /* save.png */; };
+		F9E2E4671C5C047E0065BE67 /* reselect.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4661C5C047E0065BE67 /* reselect.png */; };
+		F9E2E4691C5C06140065BE67 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4681C5C06140065BE67 /* page3.png */; };
+		F9E2E46B1C5C0B070065BE67 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2E46A1C5C0B070065BE67 /* opencv2 */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,14 @@
 		F9324FA91C521B4B0079AD76 /* AddImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddImage.png; sourceTree = "<group>"; };
 		F9324FAB1C521DAD0079AD76 /* LighTing_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LighTing_logo.png; sourceTree = "<group>"; };
 		F9324FAD1C521DC90079AD76 /* logo_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_img.png; sourceTree = "<group>"; };
+		F9E2E45D1C5BEE480065BE67 /* page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = page2ViewController.h; sourceTree = "<group>"; };
+		F9E2E45E1C5BEE490065BE67 /* page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = page2ViewController.m; sourceTree = "<group>"; };
+		F9E2E45F1C5BEE490065BE67 /* page2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = page2ViewController.xib; sourceTree = "<group>"; };
+		F9E2E4621C5C04570065BE67 /* restore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restore.png; sourceTree = "<group>"; };
+		F9E2E4641C5C046D0065BE67 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		F9E2E4661C5C047E0065BE67 /* reselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reselect.png; sourceTree = "<group>"; };
+		F9E2E4681C5C06140065BE67 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		F9E2E46A1C5C0B070065BE67 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = text; name = opencv2; path = OneColor/opencv2.framework/opencv2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E2E46B1C5C0B070065BE67 /* opencv2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +66,7 @@
 		F9324F841C5211D00079AD76 = {
 			isa = PBXGroup;
 			children = (
+				F9E2E46A1C5C0B070065BE67 /* opencv2 */,
 				F9324F8F1C5211D00079AD76 /* OneColor */,
 				F9324F8E1C5211D00079AD76 /* Products */,
 			);
@@ -75,6 +92,9 @@
 				F9324F9E1C5211D00079AD76 /* LaunchScreen.storyboard */,
 				F9324FA11C5211D00079AD76 /* Info.plist */,
 				F9324F901C5211D00079AD76 /* Supporting Files */,
+				F9E2E45D1C5BEE480065BE67 /* page2ViewController.h */,
+				F9E2E45E1C5BEE490065BE67 /* page2ViewController.m */,
+				F9E2E45F1C5BEE490065BE67 /* page2ViewController.xib */,
 			);
 			path = OneColor;
 			sourceTree = "<group>";
@@ -82,6 +102,10 @@
 		F9324F901C5211D00079AD76 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9E2E4621C5C04570065BE67 /* restore.png */,
+				F9E2E4641C5C046D0065BE67 /* save.png */,
+				F9E2E4661C5C047E0065BE67 /* reselect.png */,
+				F9E2E4681C5C06140065BE67 /* page3.png */,
 				F9324FAB1C521DAD0079AD76 /* LighTing_logo.png */,
 				F9324FAD1C521DC90079AD76 /* logo_img.png */,
 				F9324FA71C521ACA0079AD76 /* BackGround.jpg */,
@@ -149,12 +173,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E2E4671C5C047E0065BE67 /* reselect.png in Resources */,
 				F9324FA81C521ACA0079AD76 /* BackGround.jpg in Resources */,
 				F9324FA01C5211D00079AD76 /* LaunchScreen.storyboard in Resources */,
 				F9324FAC1C521DAD0079AD76 /* LighTing_logo.png in Resources */,
 				F9324FAE1C521DC90079AD76 /* logo_img.png in Resources */,
 				F9324F9D1C5211D00079AD76 /* Assets.xcassets in Resources */,
 				F9324FAA1C521B4B0079AD76 /* AddImage.png in Resources */,
+				F9E2E4651C5C046D0065BE67 /* save.png in Resources */,
+				F9E2E4691C5C06140065BE67 /* page3.png in Resources */,
+				F9E2E4611C5BEE490065BE67 /* page2ViewController.xib in Resources */,
+				F9E2E4631C5C04570065BE67 /* restore.png in Resources */,
 				F9324F9B1C5211D00079AD76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +197,7 @@
 			files = (
 				F9324F981C5211D00079AD76 /* ViewController.m in Sources */,
 				F9324F951C5211D00079AD76 /* AppDelegate.m in Sources */,
+				F9E2E4601C5BEE490065BE67 /* page2ViewController.m in Sources */,
 				F9324F921C5211D00079AD76 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +347,7 @@
 				F9324FA61C5211D00079AD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
