@@ -12,7 +12,7 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -20,19 +20,28 @@
                     <rect key="frame" x="8" y="490" width="93" height="59"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button" image="restore.png"/>
+                    <connections>
+                        <action selector="restoreBtnAction:" destination="-1" eventType="touchUpInside" id="j6J-0Q-9Af"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gea-ZD-Ohj">
                     <rect key="frame" x="107" y="490" width="107" height="59"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button" image="save.png"/>
+                    <connections>
+                        <action selector="saveBtnAction:" destination="-1" eventType="touchUpInside" id="0dv-kv-r90"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pxb-fd-2Rf">
                     <rect key="frame" x="214" y="494" width="98" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button" image="reselect.png"/>
+                    <connections>
+                        <action selector="reselectBtnAction:" destination="-1" eventType="touchUpInside" id="hIi-2Z-5h1"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5hW-vV-Fhm">
-                    <rect key="frame" x="0.0" y="25" width="320" height="450"/>
+                    <rect key="frame" x="0.0" y="24" width="320" height="450"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>

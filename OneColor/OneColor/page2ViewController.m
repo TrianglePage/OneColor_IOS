@@ -18,6 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    //添加页面背影图片
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"page3.png"]];
+    
+    //把第一页面传过来的图片放到imageview显示
     self.page2ImageView.image = self.page2Image;
     
     
@@ -37,5 +41,22 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)restoreBtnAction:(id)sender
+{
+    self.page2ImageView.image = self.page2Image;
+}
+
+- (IBAction)saveBtnAction:(id)sender
+{
+    
+}
+
+- (IBAction)reselectBtnAction:(id)sender
+{
+    
+}
+
+
 
 @end
