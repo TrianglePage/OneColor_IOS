@@ -18,9 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    _page2ImageView.image = self.page2ImageView.image;
+    self.page2ImageView.image = self.page2Image;
     
-}
+    
+}	
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

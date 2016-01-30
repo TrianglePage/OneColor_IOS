@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="page2ViewController">
             <connections>
-                <outlet property="page2ImageView" destination="5hW-vV-Fhm" id="SWK-EH-MSp"/>
+                <outlet property="page2ImageView" destination="5hW-vV-Fhm" id="7XJ-DE-pZT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,16 +22,16 @@
                     <state key="normal" title="Button" image="restore.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gea-ZD-Ohj">
-                    <rect key="frame" x="101" y="490" width="107" height="59"/>
+                    <rect key="frame" x="107" y="490" width="107" height="59"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button" image="save.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pxb-fd-2Rf">
-                    <rect key="frame" x="208" y="494" width="98" height="51"/>
+                    <rect key="frame" x="214" y="494" width="98" height="51"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Button" image="reselect.png"/>
                 </button>
-                <imageView userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page3.png" id="5hW-vV-Fhm">
+                <imageView userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5hW-vV-Fhm">
                     <rect key="frame" x="0.0" y="25" width="320" height="450"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -41,7 +41,6 @@
         </view>
     </objects>
     <resources>
-        <image name="page3.png" width="1080" height="1920"/>
         <image name="reselect.png" width="309" height="110"/>
         <image name="restore.png" width="314" height="115"/>
         <image name="save.png" width="328" height="115"/>

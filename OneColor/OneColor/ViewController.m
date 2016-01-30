@@ -60,21 +60,21 @@
 //当选择一张图片后进入这里, 实现代理imagePickerController
 -(void)imagePickerController:(UIImagePickerController *)picker
 didFinishPickingMediaWithInfo:(NSDictionary *)info{
-    image = [info objectForKey:UIImagePickerControllerOriginalImage];
-//    if (image == nil) {
-//        image = [info objectForKey:UIImagePickerControllerOriginalImage];
-//    }
+    image = [info objectForKey:UIImagePickerControllerEditedImage];
+    if (image == nil) {
+        image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    }
     
     
     //创建第二个viewcontroller
     page2ViewController *page2VC = [[page2ViewController alloc] initWithNibName:@"page2ViewController" bundle:[NSBundle mainBundle]];
     
     //把点击的图片传给下一页
-    page2VC.page2ImageView.image = image;
+    page2VC.page2Image = image;
     
     [self dismissViewControllerAnimated:YES completion:nil];
     
-    //跳转界面
+    //跳转界面
     [self presentViewController:page2VC animated:YES completion:nil];
 }
 

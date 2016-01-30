@@ -10,6 +10,8 @@
 
 @interface page2ViewController : UIViewController
 
+@property (weak, nonatomic) UIImage *page2Image;
+
 @property (weak, nonatomic) IBOutlet UIImageView *page2ImageView;
 
 @end
