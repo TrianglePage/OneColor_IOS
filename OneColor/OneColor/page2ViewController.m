@@ -49,14 +49,23 @@
 
 - (IBAction)saveBtnAction:(id)sender
 {
-    
+   //这个地方应该设计弹窗出来选择分享还是保存到本地相册，或者加一个选项同时都做
 }
 
 - (IBAction)reselectBtnAction:(id)sender
 {
-    
+    //类似第一个页面选择图片
 }
 
+//触屏触发事件函数，屏幕坐标可以在这里获取
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
 
+}
+
+-(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    [super touchesEnded:touches withEvent:event];
+
+}
 
 @end
