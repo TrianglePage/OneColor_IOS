@@ -23,7 +23,6 @@
 		F9E2E4651C5C046D0065BE67 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4641C5C046D0065BE67 /* save.png */; };
 		F9E2E4671C5C047E0065BE67 /* reselect.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4661C5C047E0065BE67 /* reselect.png */; };
 		F9E2E4691C5C06140065BE67 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4681C5C06140065BE67 /* page3.png */; };
-		F9E2E46B1C5C0B070065BE67 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E2E46A1C5C0B070065BE67 /* opencv2 */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +47,6 @@
 		F9E2E4641C5C046D0065BE67 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		F9E2E4661C5C047E0065BE67 /* reselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reselect.png; sourceTree = "<group>"; };
 		F9E2E4681C5C06140065BE67 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
-		F9E2E46A1C5C0B070065BE67 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = text; name = opencv2; path = OneColor/opencv2.framework/opencv2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E2E46B1C5C0B070065BE67 /* opencv2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +63,6 @@
 		F9324F841C5211D00079AD76 = {
 			isa = PBXGroup;
 			children = (
-				F9E2E46A1C5C0B070065BE67 /* opencv2 */,
 				F9324F8F1C5211D00079AD76 /* OneColor */,
 				F9324F8E1C5211D00079AD76 /* Products */,
 			);
