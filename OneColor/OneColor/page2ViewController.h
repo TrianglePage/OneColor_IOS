@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/opencv.hpp>
+#import <opencv2/highgui/ios.h>
+
 
 @interface page2ViewController : UIViewController
-
+{
+    cv::Mat cvImage;
+}
 @property (weak, nonatomic) UIImage *page2Image;
 
 @property (weak, nonatomic) IBOutlet UIImageView *page2ImageView;

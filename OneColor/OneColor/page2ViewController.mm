@@ -9,7 +9,6 @@
 #import "page2ViewController.h"
 
 @interface page2ViewController ()
-
 @end
 
 @implementation page2ViewController
@@ -24,7 +23,26 @@
     //把第一页面传过来的图片放到imageview显示
     self.page2ImageView.image = self.page2Image;
     
+    UIImage *image_tmp = self.page2ImageView.image;
+    UIImageToMat(image_tmp, cvImage);
     
+    if(!cvImage.empty())
+    {
+        cv::Mat gray;
+        // 将图像转换为灰度显示
+        cv::cvtColor(cvImage,gray,CV_RGB2GRAY);
+        // 应用高斯滤波器去除小的边缘
+        cv::GaussianBlur(gray, gray, cv::Size(5,5), 1.2,1.2);
+        // 计算与画布边缘
+        cv::Mat edges;
+        cv::Canny(gray, edges, 0, 50);
+        // 使用白色填充
+        cvImage.setTo(cv::Scalar::all(225));
+        // 修改边缘颜色
+        cvImage.setTo(cv::Scalar(0,128,255,255),edges);
+        // 将Mat转换为Xcode的UIImageView显示
+        self.page2ImageView.image = MatToUIImage(cvImage);
+    }
 }	
 
 - (void)didReceiveMemoryWarning {
