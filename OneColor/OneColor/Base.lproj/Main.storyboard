@@ -13,21 +13,96 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Edq-j8-syt">
-                                <rect key="frame" x="60" y="197" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGround.jpg" id="OrD-q7-0HL">
+                                <rect key="frame" x="0.0" y="15" width="320" height="553"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f3z-xo-Uxd" userLabel="Button_restroe">
+                                <rect key="frame" x="12" y="520" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="取消.png"/>
+                                <connections>
+                                    <action selector="restore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDC-1m-Qfk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O1I-Zf-FBj" userLabel="Button_undo">
+                                <rect key="frame" x="90" y="520" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="后退.png"/>
+                                <connections>
+                                    <action selector="undo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="div-Cc-MM9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="o5u-M6-csd" userLabel="Button_confirm">
+                                <rect key="frame" x="170" y="520" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="确定.png"/>
+                                <connections>
+                                    <action selector="confirm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLR-5x-hdR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wuh-f7-kp8" userLabel="Button_reelect">
+                                <rect key="frame" x="250" y="520" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="重选.png"/>
+                                <connections>
+                                    <action selector="addImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGN-7a-DAM"/>
+                                    <action selector="reelect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pxx-Mb-ZU5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Obo-e4-iqc" userLabel="Button_addImage" colorLabel="IBBuiltInLabel-Red">
+                                <rect key="frame" x="111" y="197" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="AddImage.png"/>
                                 <connections>
-                                    <action selector="addImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxC-7e-0Ua"/>
+                                    <action selector="addImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LzN-sx-YLG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGround.jpg" id="OrD-q7-0HL">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="Epq-Qj-TIz">
+                                <rect key="frame" x="30" y="473" width="257" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="adjust_grading:" destination="BYZ-38-t0r" eventType="valueChanged" id="eJq-G2-aYv"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OQ9-vd-ffZ" userLabel="Button_sub">
+                                <rect key="frame" x="7" y="478" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="减号.png"/>
+                                <connections>
+                                    <action selector="sub_grading:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QfV-RK-n1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0mh-eA-LKO" userLabel="Button_add">
+                                <rect key="frame" x="285" y="478" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="加号.png"/>
+                                <connections>
+                                    <action selector="add_grading:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30W-hR-C3f"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="色彩保留等级：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jGR-t3-Zgk">
+                                <rect key="frame" x="12" y="457" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bJX-Vi-1J1">
+                                <rect key="frame" x="12" y="38" width="298" height="411"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="image_view">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="grading_tip" destination="jGR-t3-Zgk" id="Fv8-Vs-gI6"/>
+                        <outlet property="imageView_loadImage" destination="bJX-Vi-1J1" id="rcy-D8-HKs"/>
+                        <outlet property="slider_grading" destination="Epq-Qj-TIz" id="Wtt-aR-t6Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -37,5 +112,11 @@
     <resources>
         <image name="AddImage.png" width="256" height="256"/>
         <image name="BackGround.jpg" width="1080" height="1920"/>
+        <image name="减号.png" width="48" height="48"/>
+        <image name="加号.png" width="46" height="47"/>
+        <image name="取消.png" width="214" height="101"/>
+        <image name="后退.png" width="222" height="99"/>
+        <image name="确定.png" width="219" height="99"/>
+        <image name="重选.png" width="221" height="99"/>
     </resources>
 </document>

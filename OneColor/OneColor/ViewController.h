@@ -12,5 +12,11 @@
 {
     UIImage *image;
 }
+@property (weak, nonatomic) IBOutlet UIImageView *imageView_loadImage;
+
+@property (weak, nonatomic) IBOutlet UISlider *slider_grading;
+
+@property (weak, nonatomic) IBOutlet UILabel *grading_tip;
+
 @end
 

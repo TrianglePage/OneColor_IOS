@@ -24,6 +24,16 @@
 		F9E2E4651C5C046D0065BE67 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4641C5C046D0065BE67 /* save.png */; };
 		F9E2E4671C5C047E0065BE67 /* reselect.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4661C5C047E0065BE67 /* reselect.png */; };
 		F9E2E4691C5C06140065BE67 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E2E4681C5C06140065BE67 /* page3.png */; };
+		F9E331F51CAC4C4B00CAE059 /* 加号.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E331F41CAC4C4B00CAE059 /* 加号.png */; };
+		F9E331F71CAC4C5500CAE059 /* 减号.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E331F61CAC4C5500CAE059 /* 减号.png */; };
+		F9EF62761CA93332002059DC /* 重选.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF62751CA93332002059DC /* 重选.png */; };
+		F9EF62781CA9337C002059DC /* 重选-按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF62771CA9337C002059DC /* 重选-按下.png */; };
+		F9EF627A1CA93391002059DC /* 取消.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF62791CA93391002059DC /* 取消.png */; };
+		F9EF627C1CA93399002059DC /* 取消-按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF627B1CA93399002059DC /* 取消-按下.png */; };
+		F9EF627E1CA933A2002059DC /* 确定.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF627D1CA933A2002059DC /* 确定.png */; };
+		F9EF62801CA933A9002059DC /* 确定-按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF627F1CA933A9002059DC /* 确定-按下.png */; };
+		F9EF62821CA9465D002059DC /* 后退.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF62811CA9465D002059DC /* 后退.png */; };
+		F9EF62841CA9484F002059DC /* 后退-按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EF62831CA9484F002059DC /* 后退-按下.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,16 @@
 		F9E2E4641C5C046D0065BE67 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
 		F9E2E4661C5C047E0065BE67 /* reselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reselect.png; sourceTree = "<group>"; };
 		F9E2E4681C5C06140065BE67 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		F9E331F41CAC4C4B00CAE059 /* 加号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号.png"; sourceTree = "<group>"; };
+		F9E331F61CAC4C5500CAE059 /* 减号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减号.png"; sourceTree = "<group>"; };
+		F9EF62751CA93332002059DC /* 重选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重选.png"; sourceTree = "<group>"; };
+		F9EF62771CA9337C002059DC /* 重选-按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重选-按下.png"; sourceTree = "<group>"; };
+		F9EF62791CA93391002059DC /* 取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消.png"; sourceTree = "<group>"; };
+		F9EF627B1CA93399002059DC /* 取消-按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消-按下.png"; sourceTree = "<group>"; };
+		F9EF627D1CA933A2002059DC /* 确定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定.png"; sourceTree = "<group>"; };
+		F9EF627F1CA933A9002059DC /* 确定-按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定-按下.png"; sourceTree = "<group>"; };
+		F9EF62811CA9465D002059DC /* 后退.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "后退.png"; sourceTree = "<group>"; };
+		F9EF62831CA9484F002059DC /* 后退-按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "后退-按下.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +122,16 @@
 		F9324F901C5211D00079AD76 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9E331F41CAC4C4B00CAE059 /* 加号.png */,
+				F9E331F61CAC4C5500CAE059 /* 减号.png */,
+				F9EF62811CA9465D002059DC /* 后退.png */,
+				F9EF62831CA9484F002059DC /* 后退-按下.png */,
+				F9EF627D1CA933A2002059DC /* 确定.png */,
+				F9EF627F1CA933A9002059DC /* 确定-按下.png */,
+				F9EF62791CA93391002059DC /* 取消.png */,
+				F9EF627B1CA93399002059DC /* 取消-按下.png */,
+				F9EF62751CA93332002059DC /* 重选.png */,
+				F9EF62771CA9337C002059DC /* 重选-按下.png */,
 				F9E2E4621C5C04570065BE67 /* restore.png */,
 				F9E2E4641C5C046D0065BE67 /* save.png */,
 				F9E2E4661C5C047E0065BE67 /* reselect.png */,
@@ -173,18 +203,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EF62761CA93332002059DC /* 重选.png in Resources */,
 				F9E2E4671C5C047E0065BE67 /* reselect.png in Resources */,
 				F9324FA81C521ACA0079AD76 /* BackGround.jpg in Resources */,
+				F9EF62841CA9484F002059DC /* 后退-按下.png in Resources */,
 				F9324FA01C5211D00079AD76 /* LaunchScreen.storyboard in Resources */,
 				F9324FAC1C521DAD0079AD76 /* LighTing_logo.png in Resources */,
+				F9EF627E1CA933A2002059DC /* 确定.png in Resources */,
+				F9EF627A1CA93391002059DC /* 取消.png in Resources */,
 				F9324FAE1C521DC90079AD76 /* logo_img.png in Resources */,
 				F9324F9D1C5211D00079AD76 /* Assets.xcassets in Resources */,
+				F9EF62781CA9337C002059DC /* 重选-按下.png in Resources */,
 				F9324FAA1C521B4B0079AD76 /* AddImage.png in Resources */,
 				F9E2E4651C5C046D0065BE67 /* save.png in Resources */,
+				F9EF627C1CA93399002059DC /* 取消-按下.png in Resources */,
 				F9E2E4691C5C06140065BE67 /* page3.png in Resources */,
 				F9E2E4611C5BEE490065BE67 /* page2ViewController.xib in Resources */,
+				F9EF62821CA9465D002059DC /* 后退.png in Resources */,
+				F9E331F51CAC4C4B00CAE059 /* 加号.png in Resources */,
 				F9E2E4631C5C04570065BE67 /* restore.png in Resources */,
+				F9E331F71CAC4C5500CAE059 /* 减号.png in Resources */,
 				F9324F9B1C5211D00079AD76 /* Main.storyboard in Resources */,
+				F9EF62801CA933A9002059DC /* 确定-按下.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
